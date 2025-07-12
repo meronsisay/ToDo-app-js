@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(148, 79, 214);
+}
+
+.add_task{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.add_task input, .add_task button{
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.add_task button{
+    background-color:  rgb(177, 117, 234);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.add_task button:hover{
+    background-color: rgb(142, 72, 206);
+}
+.task-card{
+    border: 1px solid rgb(223, 213, 213);
+    border-radius: 5px;
+    list-style: none;
+    width:  40%;
+    margin: 8px auto;
+    font-size: 18px;
+    padding: 8px;
+    color: rgb(63, 7, 116);
+}
+.task-card:hover{
+    cursor: pointer;
+    background-color:  rgb(227, 217, 238);
+}
+.tasks ul{
+    display: flex;
+}
