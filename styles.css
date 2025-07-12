@@ -14,6 +14,7 @@ body{
     padding: 10px;
     margin: 0 auto;
 }
+
 .add_task button{
     background-color:  rgb(177, 117, 234);
     border: none;
@@ -24,6 +25,7 @@ body{
     background-color: rgb(142, 72, 206);
 }
 .task-card{
+    width: 100%;
     border: 1px solid rgb(223, 213, 213);
     border-radius: 5px;
     list-style: none;
@@ -37,6 +39,15 @@ body{
     cursor: pointer;
     background-color:  rgb(227, 217, 238);
 }
-.tasks ul{
-    display: flex;
+
+.edit{
+    margin-left: 10px;
+    border: 1px solid rgb(223, 213, 213);
+    border-radius: 5px;
+    padding: 8px;
+    width: 10%;
+    background-color:  rgb(197, 159, 232);
+    color: white;
 }
+
+    
